@@ -23,7 +23,7 @@ const CategoryList: React.FC = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {categories.map(category => (
+      {categories &&categories.map(category => (
         <div key={category.id} className="border p-4 rounded-lg shadow hover:shadow-lg transition">
           <h3 className="text-xl font-bold">{category.name}</h3>
           <p className="text-gray-600">{category.description}</p>
