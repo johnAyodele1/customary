@@ -1,0 +1,6 @@
+{
+  "name": "Customry Bespoke Atelier",
+  "description": "An elegant, curated digital showroom and order tracking system for Customry bespoke tailoring, accessories, and luxury lifestyle creations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
